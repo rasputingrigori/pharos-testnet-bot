@@ -135,4 +135,4 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 
 ## License
 
-This project is open-source—modify with "[MIT License](?tab=MIT-1-ov-file)" and distribute as needed.
+This project is open-source—modify with "[MIT License](https://github.com/rasputingrigori/pharos-testnet-bot/tree/main?tab=MIT-1-ov-file)" and distribute as needed.
