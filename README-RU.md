@@ -44,11 +44,11 @@ cd pharos-testnet-bot
 ```bash
 python -m venv venv
 ```
-### В Windows
+#### В Windows
 ```bash
 venv\Scripts\activate
 ```
-### В macOS/Linux
+#### В macOS/Linux
 ```bash
 source venv/bin/activate
 ```

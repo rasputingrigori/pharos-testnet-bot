@@ -32,7 +32,7 @@ Bot testnet Pharos (Insentif) - sebuah skrip Python otomatisasi untuk berinterak
 Python 3.8 atau lebih tinggi
 `pip` (penginstal paket Python)
 
-Instalasi dan Mulai
+### Instalasi dan Mulai
 1. Kloning repositori:
 ```bash
 git clone https://github.com/rasputingrigori/pharos-testnet-bot.git
@@ -42,11 +42,11 @@ cd pharos-testnet-bot
 ```bash
 python -m venv venv
 ```
-### Di Windows
+#### Di Windows
 ```bash
 venv\Scripts\activate
 ```
-### Di macOS/Linux
+#### Di macOS/Linux
 ```bash
 source venv/bin/activate
 ```
