@@ -29,7 +29,7 @@ def g0x995(length):
 def g0x996():
     return random.randint(100_000_000, 999_999_999)
 
-def nextjs_parser(url):
+def nexjs_parser(url):
     nextjs_pharos_value = None
     build_pharos_value = None
 
