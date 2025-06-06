@@ -64,7 +64,8 @@ ehthumbs.db
 Desktop.ini
 
 # dotenv / secrets
-
+*.env
+.env.*
 secrets.json
 *.pem
 *.key
