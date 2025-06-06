@@ -1,0 +1,105 @@
+# Bytecode cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# pip environment
+pip-selfcheck.json
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Unit test / test logs
+test-results/
+*.log
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# dotenv / secrets
+
+secrets.json
+*.pem
+*.key
+
+# SQLite / local DB
+*.sqlite3
+*.db
+
+# AWS/GCP/Cloud credentials
+*.boto
+*.pkl
+*.h5
+
+# Node (if fullstack)
+node_modules/
+
+# Other Python package artifacts
+*.egg
+*.egg-info/
+.eggs/
+
+# Sphinx docs
+docs/_build/
+
+# Wheel / distribution
+*.whl
+
+# Editor backups
+*.bak
+*.swp
+*.swo
+
+# IPython history
+.history
+
+# Local settings
+local_settings.py
+settings_local.py
